@@ -62,6 +62,7 @@ body{
     color: #343434;
     margin-bottom: 20px;
     display: block;
+    font-size: 18px;
 }
 
 .menu-principal__item--atual{
