@@ -60,6 +60,8 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: #343434;
+    margin-bottom: 20px;
+    display: block;
 }
 
 .menu-principal__item--atual{
