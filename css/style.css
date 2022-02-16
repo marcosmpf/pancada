@@ -25,6 +25,7 @@ body{
     background-repeat: no-repeat;
     width: 637px;  
     height: 146px;
-    object-fit: 20%;
+   max-width: 20%;
+   max-height: 20%;
     text-indent: -9999px; ;
 }
