@@ -25,5 +25,6 @@ body{
     background-repeat: no-repeat;
     width: 637px;  
     height: 146px;
+    size-adjust: 10%;
     text-indent: -9999px; ;
 }
