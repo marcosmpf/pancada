@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
+}
+
+body{
+    font-family: "Source Sans Pro";
+}
