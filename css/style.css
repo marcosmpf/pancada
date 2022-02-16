@@ -15,3 +15,14 @@
 body{
     font-family: "Source Sans Pro";
 }
+
+.cabecalho{
+    background: #fff ;
+}
+
+.logo{
+    background-image: url("../img/pancadalogo.png");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 53px;
+}
