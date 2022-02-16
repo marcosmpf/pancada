@@ -48,3 +48,20 @@ body{
 .menu-principal__btn--fechar{
     background-position: -48px 7px;
 }
+
+.menu-principal__lista{
+    padding: 0;
+}
+.menu-principal__lista li{
+    list-style: none;
+}
+
+.menu-principal__item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #343434;
+}
+
+.menu-principal__item--atual{
+    color: greenyellow;
+}
