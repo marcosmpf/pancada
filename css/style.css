@@ -42,5 +42,8 @@ body{
     border-color: #c4c4c4;
     border-style: solid;
     border-radius: 5px;
+}
 
+.menu-principal__btn--fechar{
+    background-position: 5px 5px;
 }
