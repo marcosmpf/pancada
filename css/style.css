@@ -23,7 +23,7 @@ body{
 .logo{
     background-image: url("../img/pancadalogo1.png"); 
     background-repeat: no-repeat;
-    width: 20% 637px; 
-    height: 20% 146px;
+    width: 637px 20%;  
+    height: 146px 20%;
     text-indent: -9999px; ;
 }
