@@ -21,9 +21,9 @@ body{
 }
 
 .logo{
-    background-image: url("../img/pancadalogo1.png"); width: 1%; height: 1%;
+    background-image: url("../img/pancadalogo1.png"); 
     background-repeat: no-repeat;
-    width: 637px;
-    height: 146px;
+    width: 20% 637px; 
+    height: 20% 146px;
     text-indent: -9999px; ;
 }
