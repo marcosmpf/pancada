@@ -14,7 +14,7 @@
 
 body{
     font-family: "Source Sans Pro";
-}
+    }
 
 .cabecalho{
     background: #fff ;
@@ -29,6 +29,9 @@ body{
     height: 118px;
     text-indent: -9999px; ;
     margin: 0;
+}
+.logo--branco{
+    background-image:url("../img/pancadalogo2.png") ;
 }
 
 .menu-principal__btn{
@@ -56,8 +59,6 @@ body{
 
 .menu-principal__lista{
     padding: 0;
-}
-.menu-principal__lista li{
     list-style: none;
 }
 
@@ -72,4 +73,46 @@ body{
 
 .menu-principal__item--atual{
     color: rgb(102, 161, 14);
+}
+/* Rodapé */
+.rodape{
+    color: #fff;
+}
+.rodape .logo{
+margin-bottom: 20px;
+}
+.rodape__linha-1{
+background-color: #03fa2d;
+background-image: url(../img/pancada4.jpg); 
+background-size: cover;
+padding: 15px;
+}
+.rodape__linha-2{
+    background: color #000;
+    text-align: center;
+    padding: 15px;
+}
+.rodape__coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.rodape__titulo{
+    border-bottom: 1px solid white;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
+}
+.rodape__lista-links{
+    padding: 0;
+    list-style: none;
+}
+.rodape__lista-links__item{
+    color:#fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+.rodape__lista-links__item::before{
+content: '>';
+margin-right: 8px ;
+color: #03fa2d;
 }
