@@ -1,0 +1,7 @@
+.pagina-cabecalho{
+    background-color: rgb(102, 161, 14);
+    background-image: url("../img/cabecalho.jpg");
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
