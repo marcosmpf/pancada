@@ -7,6 +7,8 @@
     <title>pANcada</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-pagina.css"
+    <link rel="stylesheet" href="css/style-contato.css">
 </head>
 <body>
     <header class="cabecalho"> 
@@ -23,24 +25,25 @@
         </nav>
     </header>
     <main>
-        <header>
-            <h1>Contato</h1>
-            <section>
-                <p>Caso queria entrar em contato!</p>
-                <form action="#">
-                    <div>
-                        <label for="nome">Nome:</label><br>
-                        <input id="nome" type="text" name="nome">
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Contato</h1>
+        </header>
+            <section class="pagina-conteudo">
+                <p class="text-center">Caso queira entrar em contato!</p>
+                <form action="#" class="formulario">
+                    <div class="formulario__grupo">
+                        <label class="formulario_label" for="nome">Nome:</label><br>
+                        <input class="formulario__campo" id="nome" type="text" name="nome">
                     </div>
-                    <div>
-                    <label for="email">E-mail:</label><br>
-                    <input id="email" type="text" name="email">                   
+                    <div class="formulario__grupo">
+                    <label class="formulario__label" for="email">E-mail:</label><br>
+                    <input class="formulario__campo" id="email" type="text" name="email">                   
                     </div>
-                    <div>
-                            <label for="mensagem">Mensagem:</label><br>
+                    <div class="formulario__grupo">
+                            <label class="formulario_label" for="mensagem">Mensagem:</label><br>
                         <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
                     </div>
-                        <input type="submit" value="Enviar">
+                        <input type="submit" class="formulario__botao" value="Enviar">
                         <div>
                             <img src="img/pancadaeamigos.jpg" alt="pancadaeamigos">
                         </div>
