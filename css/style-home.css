@@ -1,0 +1,28 @@
+.cabecalho-home{
+    background: url(../img/pancada5.jpg) #000 no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+.cabecalho-home__titulo{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.cabecalho-home__role{
+    display: none;
+}
+.home_titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+.home_titulo::after{
+    content:'';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #03fa2d;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+

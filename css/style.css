@@ -90,6 +90,7 @@ background-color: #03fa2d;
 background-image: url(../img/pancada4.jpg); 
 background-size: cover;
 padding: 15px;
+background-repeat: no-repeat;
 }
 .rodape__linha-2{
     background: color #000;
