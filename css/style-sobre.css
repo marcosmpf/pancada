@@ -2,6 +2,28 @@
     background-color: rgb(102, 161, 14);
     background-image: url("../img/cabecalho.jpg");
     color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+}
+.pagina-cabecalho__titulo{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.pagina-cabecalho__titulo::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.pagina-conteudo{
+    padding: 15px;
+}
+.pagina-conteudo p{
+    color: #3a3a3a;
+    line-height: 22px;
 }
