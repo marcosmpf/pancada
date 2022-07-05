@@ -374,6 +374,9 @@ body {
   margin-right: 8px;
   color: #03fa2d; }
 
+.container {
+  width: 1200px; }
+
 .text-center {
   text-align: center; }
 
@@ -382,27 +385,23 @@ body {
   background-image: url("../img/cabecalho.jpg");
   color: #fff;
   padding: 30px 0; }
-
-.curiosidades__item {
-  padding: 0 15px; }
-
-.curiosidades__img {
-  margin: 0 auto;
-  display: block;
-  box-shadow: 3px 3px 0 #000;
-  margin-bottom: 30px; }
-
-.curiosidades__texto {
-  line-height: 24px;
-  margin-bottom: 30px; }
-
-.curiosidades__texto::before {
-  background: url(../img/aspas.png) no-repeat;
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 23px;
-  margin-right: 5px; }
+  .curiosidades__item {
+    padding: 0 15px; }
+  .curiosidades__img {
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px 3px 0 #000;
+    margin-bottom: 30px; }
+  .curiosidades__texto {
+    line-height: 24px;
+    margin-bottom: 30px; }
+  .curiosidades__texto::before {
+    background: url(../img/aspas.png) no-repeat;
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    margin-right: 5px; }
 
 .formulario {
   background-color: #efecec;
@@ -526,7 +525,7 @@ body {
   margin-bottom: 30px; }
 
 .servicos__texto {
-  color: #585858; }
+  color: #3a3a3a; }
 
 .cabecalho-home {
   background: url(../img/pancada5.jpg) #000 no-repeat;
