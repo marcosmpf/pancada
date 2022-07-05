@@ -38,5 +38,5 @@ background-repeat: no-repeat;
 .rodape__lista-links__item::before{
 content: '>';
 margin-right: 8px ;
-color: #03fa2d;
+color: $cor-principal;
 }
